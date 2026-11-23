@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}{{ message }}{% endblock %}
+{% block content %}
+  <section class="panel empty-state error-page">
+    <p class="eyebrow">Ошибка {{ status_code }}</p>
+    <h1>{{ message }}</h1>
+    <p>Проверьте адрес или вернитесь к журналу обслуживания.</p>
+    <a href="/" class="button button-primary">Все заявки</a>
+  </section>
+{% endblock %}

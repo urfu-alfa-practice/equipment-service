@@ -1,0 +1,46 @@
+# Виртуальные окружения
+.venv/
+venv/
+env/
+ENV/
+
+# Python и инструменты проверки
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Артефакты сборки
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Локальные данные и настройки
+data/
+data-backup*/
+*.sqlite3
+*.sqlite3-*
+*.log
+.env
+.env.*
+!.env.example
+
+# IDE и операционная система
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+*.swp
+*.swo
+*~
+
+# Материалы преподавателя (в любой папке)
+TEACHER.md
